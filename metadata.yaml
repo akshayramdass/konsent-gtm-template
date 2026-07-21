@@ -6,7 +6,7 @@
 # you are publishing; the Gallery submission flow can also add versions for you.
 homepage: https://konsent.sigilandclover.com
 versions:
-  - sha: REPLACE_WITH_RELEASE_COMMIT_SHA
+  - sha: b7d604774530feac7fc5cd9c4663eb6352a112c3
     changeNotes: >-
       Initial release. Loads the konsent consent banner and blocks tracking until
       visitors consent. Configure the Site Key from your konsent dashboard.
