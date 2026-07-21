@@ -1,0 +1,12 @@
+# Metadata for the Google Tag Manager Community Template Gallery.
+#
+# This file lives at the ROOT of the public GitHub repo you submit to the Gallery
+# (alongside template.tpl and LICENSE). The Gallery reads it to list released
+# versions. Fill each `sha` with the FULL 40-character commit hash of the release
+# you are publishing; the Gallery submission flow can also add versions for you.
+homepage: https://konsent.sigilandclover.com
+versions:
+  - sha: REPLACE_WITH_RELEASE_COMMIT_SHA
+    changeNotes: >-
+      Initial release. Loads the konsent consent banner and blocks tracking until
+      visitors consent. Configure the Site Key from your konsent dashboard.
