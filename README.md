@@ -1,6 +1,6 @@
 # konsent for Google Tag Manager
 
-A certified **GTM Community Template** for konsent. konsent is a hosted
+A **GTM Community Template** for konsent, ready for Gallery review. konsent is a hosted
 consent-management platform (a CookieYes or Cookiebot alternative). Instead of
 pasting the loader as a Custom HTML tag, a GTM user adds konsent as a proper tag,
 picks it from the Gallery, types their Site Key, and fires it on Consent
@@ -51,21 +51,17 @@ the consent dialog:
 Only the konsent owner can do this; it needs a GitHub account and involves a
 Google review. Steps:
 
-1. **Create a new public GitHub repo** (for example `konsent-gtm-template`). Do
-   not nest it under a larger repo; the Gallery reads the template files from the
-   repo **root**.
-2. **Copy these files to the repo root**: `template.tpl`, `metadata.yaml`, and
-   `LICENSE`. (Copy them out of this `integrations/gtm/` folder.)
-3. **Commit and push.** Then fill `metadata.yaml`'s `sha` with the full commit
-   hash of that release (`git rev-parse HEAD`), commit again, and push.
-4. **Sign in to the Gallery** at
+This repository is already the public distribution repository expected by the
+Gallery. Complete the remaining owner-only submission steps:
+
+1. **Sign in to the Gallery** at
    https://tagmanager.google.com/gallery and choose **Add a template** (or open
    the template in GTM's template editor and use **Community Gallery → Add to
    Gallery**). Authorize the GitHub repo when prompted.
-5. **Confirm the details** (icon, description, homepage) and submit. Google
+2. **Confirm the details** (icon, description, homepage) and submit. Google
    reviews the template before it appears publicly. Reviews can take a few days
    and may come back with change requests.
-6. **Releasing updates:** bump `version` in `template.tpl`'s `___INFO___`, push a
+3. **Releasing updates:** bump `version` in `template.tpl`'s `___INFO___`, push a
    new commit, and add a new entry under `versions:` in `metadata.yaml` with the
    new commit `sha` and change notes.
 

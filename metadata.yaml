@@ -5,6 +5,7 @@
 # versions. Fill each `sha` with the FULL 40-character commit hash of the release
 # you are publishing; the Gallery submission flow can also add versions for you.
 homepage: https://konsent.sigilandclover.com
+documentation: https://github.com/akshayramdass/konsent-gtm-template#readme
 versions:
   - sha: b7d604774530feac7fc5cd9c4663eb6352a112c3
     changeNotes: >-
